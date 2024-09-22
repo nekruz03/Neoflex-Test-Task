@@ -9,6 +9,16 @@ GET "/calculacte"
 
 Проверяться будет чистота кода, структура проекта, название полей\классов, правильность использования паттернов. Желательно написание юнит-тестов, проверяющих расчет.
 
+# Cтек проекта
+- Spring Boot
+- Java 11
+- JUnit
+- Mockito
+- Swagger
+- Docker
+- MockMvc
+
+
 ## API requests
 Простой запрос: 
 ``` http://localhost:8080/calculate?averageSalary=30500.00&vacationDays=30 ```
@@ -31,13 +41,6 @@ docker build -t vacation-pay-calculator .
 ```bash
 docker run -p 8080:8080 vacation-pay-calculator 
 ```
-# Cтек проекта
-- Spring Boot
-- Java 11
-- JUnit
-- Mockito
-- Swagger
-- Docker
-- MockMvc
+
 
 
